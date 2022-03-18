@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(90deg, #d7d2cc, #304352);
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #4A4A4A;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 90%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-logo {
+    height: 100%;
+}
+
+.header-user-icon {
+    position: absolute;
+    height: 100%;
+    left: 100%;
+    margin-left: -64px;
+}
+
+form {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    height: 20%;
+    width: 45%;
+}
+
+.tweet-content {
+    height: 100%;
+    width: 100%;
+    font-family: inherit;
+    background-color: white;
+    border-radius: 4px;
+    padding: 0.9rem 0.4rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 17px;
+    color: black;
+    resize: none;
+}
+
+form button {
+    height: 30%;
+    width: 30%;
+    font-family: inherit;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-size: 100%;
+    font-weight: bold;
+    background-size: contain;
+}
+
+.submit-btn {
+    position: relative;
+    left: 15%;
+    top: 3%;
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);;
+    color: whitesmoke;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(to right, #1f4037, #99f2c8);;
+}
+
+.clear-btn {
+    position: relative;
+    left: 25%;
+    top: 3%;
+    background: linear-gradient(to right, #334d50, #cbcaa5);;
+    color: white;
+}
+
+.clear-btn:hover {
+    background: linear-gradient(to right, #fffbd5, #b20a2c);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.git-link {
+    margin-left: -50px;
+}
